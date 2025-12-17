@@ -1,34 +1,34 @@
 ## Dr. José Rizal: Life & Works
 
-A modern, dark, museum-style web experience that presents José Rizal as a complex, contested, and deeply human figure—moving beyond simple timelines and textbook hero worship.
+A modern, dark, museum style web experience that presents José Rizal as a complex, contested, and deeply human figure moving beyond simple timelines and textbook hero worship.
 
 ### Features
 
 - **Premium historical aesthetic**: Dark navy/charcoal palette with gold accents, cinematic hero, and subtle motion.
-- **Debate-driven storytelling**: Split-panel treatments (e.g., the Retraction controversy, “American-made hero” debate).
-- **Deep-dive content**: Academic yet accessible copy on Rizal’s life, works, and legacy, focused on debates and human complexity.
-- **Interactive journeys**: SVG-based world map and timeline for Rizal’s travels and exile.
+- **Debate driven storytelling**: Split panel treatments (e.g., the Retraction controversy, “American made hero” debate).
+- **Deep dive content**: Academic yet accessible copy on Rizal’s life, works, and legacy, focused on debates and human complexity.
+- **Interactive journeys**: SVG based world map and timeline for Rizal’s travels and exile.
 - **Responsive & animated**: Framer Motion scroll reveals, hover states, and a refined navigation bar.
-- **Accessible by design**: Semantic HTML, ARIA labels, and keyboard-friendly navigation.
+- **Accessible by design**: Semantic HTML, ARIA labels, and keyboard friendly navigation.
 
 ### Main Sections
 
-1. **Hero** – Cinematic banner with Rizal’s portrait and calls-to-action to explore his works and journey.
+1. **Hero** – Cinematic banner with Rizal’s portrait and calls to action to explore his works and journey.
 2. **Life Beyond Dates** – Humanizes Rizal beyond a timeline:
    - Retraction controversy presented as a “for vs against” historical debate.
    - Profile cards for Segunda Katigbak, Leonor Rivera, Josephine Bracken, and O-Sei-San.
    - Rizal in Dapitan as doctor, naturalist, and engineer (Draco rizali, Apogonia rizali, waterworks, ophthalmology).
    - Mercado Rizal family cards (Paciano, Teodora Alonso, the Mercado/Rizal surname story).
-3. **Literary Works** – Vintage-style book cards for *Noli Me Tángere*, *El Filibusterismo*, and key essays/poetry.
-4. **Beyond the Famous Novels** – Works deep-dive:
+3. **Literary Works** – Vintage style book cards for *Noli Me Tángere*, *El Filibusterismo*, and key essays/poetry.
+4. **Beyond the Famous Novels** – Works deep dive:
    - *Makamisa* (unfinished Tagalog satire).
    - Annotations to Morga’s *Sucesos* as decolonial history.
    - Character symbolism (Maria Clara, Simoun/Ibarra, Padre Damaso, Pilosopo Tasio).
    - Letters to Blumentritt as windows into Rizal’s doubts, strategies, and friendships.
 5. **Global Journey & Exile** – Interactive world map with route lines and a timeline slider from Calamba to Dapitan.
-6. **The Polymath** – Icon-based grid of Rizal as physician, writer, artist, and scientist, with a closing quote.
+6. **The Polymath** – Icon based grid of Rizal as physician, writer, artist, and scientist, with a closing quote.
 7. **Beyond Monuments and Holidays (Legacy)** – Critical legacy section:
-   - The “American-made hero” debate (Constantino and counter-views).
+   - The “American made hero” debate (Constantino and counter views).
    - Rizalistas as folk religious movements around Mount Banahaw.
    - The Knights of Rizal and Republic Act 646 as institutional memory.
    - “Social cancer” and modern relevance: corruption, dynasties, and social media discourse with reflective questions.
@@ -48,9 +48,9 @@ A modern, dark, museum-style web experience that presents José Rizal as a compl
 
 ### Tech Stack
 
-- **React 18+** – Component-based UI.
+- **React 18+** – Component based UI.
 - **Vite** – Fast dev server and bundler.
-- **Tailwind CSS** – Utility-first styling with a custom dark/gold theme.
+- **Tailwind CSS** – Utility first styling with a custom dark/gold theme.
 - **Framer Motion** – Scroll and hover animations.
 - **Heroicons** – Outline icons for talents and content cards.
 
