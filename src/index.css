@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-navy-dark text-white font-sans antialiased;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .text-shadow-lg {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+  }
+}
+
+/* Ensure sections are visible on mobile */
+@media (max-width: 768px) {
+  section[id="works-deep-dive"],
+  section[id="legacy"],
+  section[id="life-beyond-dates"] {
+    position: relative;
+    z-index: 1;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
+  /* Force visibility of motion containers and their children on mobile */
+  section[id="works-deep-dive"] > div,
+  section[id="legacy"] > div,
+  section[id="life-beyond-dates"] > div {
+    opacity: 1 !important;
+  }
+  
+  section[id="works-deep-dive"] article,
+  section[id="legacy"] article,
+  section[id="life-beyond-dates"] article,
+  section[id="works-deep-dive"] > div > div,
+  section[id="legacy"] > div > div,
+  section[id="life-beyond-dates"] > div > div {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+}
