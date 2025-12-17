@@ -43,8 +43,8 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-navy-dark/95 backdrop-blur-sm shadow-lg'
-          : 'bg-transparent'
+          ? 'bg-navy-dark md:bg-navy-dark/95 md:backdrop-blur-sm shadow-lg'
+          : 'bg-navy-dark md:bg-transparent'
       }`}
       role="banner"
     >
@@ -133,7 +133,7 @@ const Header = () => {
         {/* Mobile Navigation Menu */}
         {isMobileMenuOpen && (
           <div
-            className="absolute top-full left-0 right-0 bg-navy-dark/98 backdrop-blur-sm border-t border-gold/20 md:hidden"
+            className="absolute top-full left-0 right-0 bg-navy-dark border-t border-gold/20 md:hidden z-50"
             role="menu"
           >
             <div className="container mx-auto px-6 py-4 space-y-4">
