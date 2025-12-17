@@ -34,6 +34,13 @@
 
 /* Ensure sections are visible on mobile */
 @media (max-width: 768px) {
+  /* Ensure header stays above all content with solid background */
+  header {
+    position: fixed !important;
+    background-color: #0a1628 !important; /* navy-dark solid */
+    z-index: 9999 !important;
+  }
+  
   section[id="works-deep-dive"],
   section[id="legacy"],
   section[id="life-beyond-dates"] {
